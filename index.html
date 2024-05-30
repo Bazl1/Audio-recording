@@ -1,14 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/styles/reset.css">
-    <link rel="stylesheet" href="./assets/styles/styles.css">
-    <script src="./assets/js/main.js" defer></script>
-    <title>Audio recording</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./assets/styles/reset.css" />
+        <link rel="stylesheet" href="./assets/styles/styles.css" />
+        <title>Audio recording</title>
+    </head>
+    <body>
+        <main class="main">
+            <section class="hero">
+                <div class="container">
+                    <div class="hero__inner">
+                        <h2 class="hero__title">Record your voice</h2>
+                        <div class="hero__btns">
+                            <button class="hero__btn" id="startBtn">
+                                Start
+                            </button>
+                            <button class="hero__btn" id="stopBtn">Stop</button>
+                        </div>
+                        <div class="hero__equalizer"></div>
+                        <a
+                            href="#"
+                            id="downloadLink"
+                            class="hero__btn hero__download_btn"
+                            >Download</a
+                        >
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <script src="./assets/js/main.js"></script>
+    </body>
 </html>
